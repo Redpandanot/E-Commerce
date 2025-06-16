@@ -38,7 +38,7 @@ This project simulates an online store, showcasing how a modern e-commerce syste
 | [Node.js](https://nodejs.org) | JavaScript runtime for the backend |
 | [Express.js](https://github.com/expressjs/express) | Web framework for building APIs |
 | [MongoDB](https://www.mongodb.com) | NoSQL database for storing application data |
-| [React (Optional)](https://github.com/facebook/react) | JavaScript library for building dynamic front-end interfaces |
+| [React](https://github.com/facebook/react) | JavaScript library for building dynamic front-end interfaces |
 | Others | ES6+, npm, [Mongoose](https://mongoosejs.com), dotenv |
 
 ---
