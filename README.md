@@ -56,7 +56,6 @@ This project simulates an online store, showcasing how a modern e-commerce syste
 git clone https://github.com/Redpandanot/E-Commerce.git
 cd E-Commerce
 npm install
-
 🛠️ Configure Environment
 Create a .env file and add necessary environment variables:
 
@@ -89,7 +88,7 @@ E-Commerce/
 └── /client        # (Optional) React frontend
 ✅ Follows MVC design pattern for maintainability and scalability.
 
-🔮 Future Improvements not planned but you could consider these for your project
+🔮 Future Improvements no plannes but you could consider the following
 🔐 Enhanced security (email verification, password reset, rate limiting)
 
 💳 Payment integration (e.g., Stripe, PayPal)
