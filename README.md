@@ -56,26 +56,23 @@ This project simulates an online store, showcasing how a modern e-commerce syste
 git clone https://github.com/Redpandanot/E-Commerce.git
 cd E-Commerce
 npm install
+```
 🛠️ Configure Environment
-Create a .env file and add necessary environment variables:
-
-env
-Copy
-Edit
+Create a .env file and add the following:
+```
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+```
+
 ▶️ Run the Application
-bash
-Copy
-Edit
+
 npm start
+
 Visit http://localhost:3000 (or configured port) in your browser or use Postman to test endpoints.
 
 🧱 Project Structure
-bash
-Copy
-Edit
+```bash
 E-Commerce/
 ├── README.md
 ├── package.json
@@ -86,9 +83,11 @@ E-Commerce/
 ├── /middleware    # Auth and other middleware
 ├── /config        # DB and environment configs
 └── /client        # (Optional) React frontend
+```
 ✅ Follows MVC design pattern for maintainability and scalability.
 
-🔮 Future Improvements no plannes but you could consider the following
+🔮 Future Improvements
+No specific plans yet, but consider the following enhance
 🔐 Enhanced security (email verification, password reset, rate limiting)
 
 💳 Payment integration (e.g., Stripe, PayPal)
@@ -108,16 +107,3 @@ Feel free to use, modify, and distribute it!
 💡 Contributions
 Contributions, issues, and feature requests are welcome!
 Please open a pull request or an issue on GitHub.
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like to add:
-- Badges (e.g., build status, license, Node version)
-- Screenshots or GIFs
-- Demo URL or API docs
-
-Would you like me to generate the badges or markdown code for them?
